@@ -1,0 +1,11 @@
+.result-footer {
+    position: relative;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #e1e2e2;
+    box-shadow: 0px 12px 20px -20px rgba(0, 0, 0, 0.5);
+    height: 75px;
+    margin-top: 10px;
+ }

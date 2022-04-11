@@ -1,0 +1,42 @@
+
+.search-box {
+    height: 75px;
+    background-color: #1d2228;
+    box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+input, select {
+    background-color: white;
+    height: 35px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+input {
+    width: 300px;
+}     
+
+select {
+    width: 150px;
+}       
+
+.button {
+    width: 150px;
+    height: 35px;
+    margin: 20px;
+    border-radius: 3px;
+    background-color: #fb8122;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button:hover {
+    cursor: pointer;
+}
+
+
