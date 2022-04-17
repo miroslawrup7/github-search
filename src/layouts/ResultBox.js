@@ -22,6 +22,7 @@ const ResultBox = (props) => {
                 users={props.users}
                 repos={props.repos}
                 searchType={props.searchType}
+                token={props.token}
             />
         </div>
     );

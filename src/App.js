@@ -162,6 +162,7 @@ function App() {
                         sortVal={sortVal}
                         handleOrderChange={handleOrderChange}
                         order={order}
+                        token={token}
                     />
                 }
             </main>

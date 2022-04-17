@@ -7,7 +7,7 @@ const UserBox = (props) => {
         headers: {
             "Content-Type": "application/json",
             Accept: "application/vnd.github.v3+json",
-            Authorization: "Token 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",
+            Authorization: "Token " + props.token,
         },
     };
 

@@ -21,6 +21,7 @@ const ResultContent = (props) => {
                         0,
                         user.following_url.length - 13
                     )}
+                    token={props.token}
                 />
             );
         });
@@ -43,6 +44,7 @@ const ResultContent = (props) => {
                     contributors_url={repo.contributors_url}
                     stars={repo.stargazers_count}
                     forks={repo.forks_count}
+                    token={props.token}
                 />
             );
         });
