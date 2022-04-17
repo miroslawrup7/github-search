@@ -1,0 +1,165 @@
+.repo-box {
+    background-color: white;
+    box-shadow: 0px 12px 20px -20px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.repo-name  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    padding: 0 40px;
+    border-right: solid 2px rgba(251, 129, 34, 0.4);
+    width: 50%;
+}
+
+.repo-name h2 {
+    font-size: 32px;
+    color: #1d2228;
+    overflow: hidden;
+    margin-right: 80px;
+}
+
+.repo-name .dates {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    text-align: right;
+    color: #1d2228;
+    font-size: 11px;
+}
+
+.repo-name .dates .size-lang {
+    color: #229cfb;
+}
+
+.repo-name .dates .stars-forks {
+    color: #fb229c
+}
+
+.repo-data {
+    display: flex;
+    margin: 10px 0;
+}
+
+.repo-data .elem {
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repo-data .quantity-box {
+    border: 1px solid #fb8122;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    color: #fb8122;
+}
+
+.repo-data .quantity-box:hover {
+    background-color: #fb8122;
+    color: white;
+    cursor: pointer;
+}
+
+.repo-data .owner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.repo-data .quantity-box.no-border {
+    border: 0;
+}
+
+.repo-data .owner-box {
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repo-data .owner img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    padding: 2px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.2);
+}
+
+.repo-data .owner .owner-box, 
+.repo-data .owner .owner-name {
+    transition: opacity ease-out 0.15s;
+}
+
+.repo-data .owner:hover .owner-box {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.repo-data .owner:hover .owner-name {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.repo-data .owner-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 0;
+    font-weight: 700;
+    color: #fb8122;
+}
+
+.show-commits-details{
+    display: flex;
+}
+
+.show-contributors-details{
+    display: flex;
+}
+
+.contributorImg img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 3px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.detail-box .contributorImg {
+    margin: 2px 10px;
+    padding: 2px 10px 2px 2px;
+    border: #fb8122 1px solid;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #fb8122;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.repo-data .quantity-box.selectedBtn {
+    background-color: #fb8122;
+    color: white;
+}

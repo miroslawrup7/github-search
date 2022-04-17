@@ -1,0 +1,152 @@
+.user-box {
+    background-color: white;
+    box-shadow: 0px 12px 20px -20px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.main-box {
+    padding: 10px;
+    display: flex;
+}
+
+.user-data img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    padding: 3px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px  rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.user-data  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    padding: 0 40px;
+    border-right: solid 2px rgba(251, 129, 34, 0.4);
+    width: 50%;
+}
+
+.user-data h2 {
+    font-size: 32px;
+    color: #1d2228;
+    overflow: hidden;
+}
+
+.user-data .details {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    text-align: right;
+    color: #1d2228;
+    font-size: 11px;
+}
+
+.user-data .details a {
+   color:  #fb8122;
+}
+
+.repos-data {
+    display: flex;
+    margin: 10px 0;
+}
+
+.repos-data .elem {
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repos-data .quantity-box {
+    border: 1px solid #fb8122;
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: white;
+    color: #fb8122;
+}
+
+.repos-data .quantity-box:hover {
+    background-color: #fb8122;
+    color: white;
+    cursor: pointer;
+}
+
+.repos-data .quantity-title {
+    margin-top: 10px;
+}
+
+.detail-box {
+    display: none;
+    flex-wrap: wrap;
+}
+
+.detail-box a {
+    margin: 2px 10px;
+    padding: 5px 10px;
+    border: #fb8122 1px solid;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #fb8122;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.detail-box a:hover {
+   background-color: #fb8122;
+    color: white;
+}
+
+.show-repo-details{
+    display: flex;
+}
+
+.show-followers-details{
+    display: flex;
+}
+
+.show-following-details{
+    display: flex;
+}
+
+.followerImg img,
+.followingImg img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+   margin-right: 3px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.detail-box .followerImg,
+.detail-box .followingImg {
+    margin: 2px 10px;
+    padding: 2px 10px 2px 2px;
+    border: #fb8122 1px solid;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #fb8122;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.repos-data .quantity-box.selectedBtn {
+    background-color: #fb8122;
+    color: white;
+}
