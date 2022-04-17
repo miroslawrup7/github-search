@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/github-search/static/css/main.c6fa4314.css",
-    "main.js": "/github-search/static/js/main.cd8039d7.js",
-    "static/media/github_background.svg": "/github-search/static/media/github_background.88c8ec01f8ef34430ee2.svg",
-    "static/media/github.svg": "/github-search/static/media/github.f49e4cb75e28cbb50ee57f8aa562834f.svg",
-    "static/media/sort-asc.svg": "/github-search/static/media/sort-asc.8de386046b795da8507bb719d6e98ec8.svg",
-    "static/media/sort-desc.svg": "/github-search/static/media/sort-desc.6bccb64be4847d459a4894054df0dfd2.svg",
-    "static/media/question.svg": "/github-search/static/media/question.bf61c228ba52bb546189d51559c2ba4a.svg",
+    "main.css": "/github-search/static/css/main.574cb7b3.css",
+    "main.js": "/github-search/static/js/main.a35c0b70.js",
+    "static/media/github_background.svg": "/github-search/static/media/github_background.1874baac46f23be6963b.svg",
+    "static/media/github.svg": "/github-search/static/media/github.f3b4ba2e5256d15d97dc77bfd878685e.svg",
+    "static/media/sort-asc.svg": "/github-search/static/media/sort-asc.63ea5674904cd34634f77908fe493c80.svg",
+    "static/media/sort-desc.svg": "/github-search/static/media/sort-desc.46beb2a017bc2efdf9f5c7cec036c8a3.svg",
+    "static/media/question.svg": "/github-search/static/media/question.f5ea372b8560be25474911bf248f51bc.svg",
     "static/media/xmark.svg": "/github-search/static/media/xmark.6837248f26b4746bca22dce7c606b744.svg",
     "index.html": "/github-search/index.html",
-    "main.c6fa4314.css.map": "/github-search/static/css/main.c6fa4314.css.map",
-    "main.cd8039d7.js.map": "/github-search/static/js/main.cd8039d7.js.map"
+    "main.574cb7b3.css.map": "/github-search/static/css/main.574cb7b3.css.map",
+    "main.a35c0b70.js.map": "/github-search/static/js/main.a35c0b70.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6fa4314.css",
-    "static/js/main.cd8039d7.js"
+    "static/css/main.574cb7b3.css",
+    "static/js/main.a35c0b70.js"
   ]
 }
