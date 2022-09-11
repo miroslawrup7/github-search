@@ -185,6 +185,12 @@ function App() {
                                 https://github.com/settings/tokens
                             </a>
                         </p>
+                        <br></br>
+                        <p>Lub wklej ten:</p>
+                        <br></br>
+                        <p className="token-string">
+                            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
+                        </p>
                     </div>
                     <div className="close-btn">
                         <img

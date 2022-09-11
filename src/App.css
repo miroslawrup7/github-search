@@ -81,6 +81,10 @@
   align-items: center;
 }
 
+#helpbox .token-string {
+  color: rgba(34, 99, 251, 1);
+}
+
 #helpbox.active {
   display: flex;
 }
